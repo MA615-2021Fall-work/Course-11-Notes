@@ -1,5 +1,7 @@
 # Course-11-Notes
 
+# DPLYR 2-TABLE VERBS
+
 # JOINS
 R-CODES:
 >inner_join(data1,data2, by = "ID") %>% kable() %>% kable_styling(font_size = 12, position = "left")
@@ -30,4 +32,6 @@ R-CODES:
 >anti_join(data1, data2, by = "ID") %>% kable() %>% kable_styling(font_size = 12, postion = "left")
 
 anti_join retains only the rows in data1 that DO NOT have a match in data2.
+
+
 
